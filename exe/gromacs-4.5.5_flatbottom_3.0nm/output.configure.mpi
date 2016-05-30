@@ -1,0 +1,242 @@
+configure: WARNING: unrecognized options: --without-motif-includes, --without-motif-libraries
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking for cc... cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of cc... gcc3
+checking dependency style of cc... gcc3
+checking for mpxlc... no
+checking for mpicc... mpicc
+checking whether the MPI cc command works... yes
+checking for MPI_IN_PLACE in collective operations... yes
+checking for catamount... no
+checking how to run the C preprocessor... mpicc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether ln -s works... yes
+checking whether mpicc accepts -O3... yes
+checking whether mpicc accepts -msse2... yes
+checking whether mpicc accepts -funroll-all-loops... yes
+checking whether mpicc accepts -std=gnu99... yes
+checking whether mpicc accepts -fexcess-precision=fast... no
+checking whether mpicc accepts  -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99... yes
+checking whether byte ordering is bigendian... no
+checking that size_t can hold pointers... yes
+checking for SIGUSR1... yes
+checking for pipes... yes
+checking floating-point format... IEEE754 (little-endian byte and word order)
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for a sed that does not truncate output... /bin/sed
+checking for ld used by mpicc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognise dependent libraries... pass_all
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether mpicc accepts -g... yes
+checking dependency style of mpicc... gcc3
+checking how to run the C++ preprocessor... mpicc -E
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from mpicc object... failed
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if mpicc supports -fno-rtti -fno-exceptions... no
+checking for mpicc option to produce PIC... -fPIC
+checking if mpicc PIC flag -fPIC works... yes
+checking if mpicc static flag -static works... no
+checking if mpicc supports -c -o file.o... yes
+checking whether the mpicc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by mpicc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the mpicc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for mpicc option to produce PIC... -fPIC
+checking if mpicc PIC flag -fPIC works... yes
+checking if mpicc static flag -static works... no
+checking if mpicc supports -c -o file.o... yes
+checking whether the mpicc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for sqrt in -lm... yes
+checking for fftw3.h... yes
+checking for main in -lfftw3f... yes
+checking rpc/rpc.h usability... yes
+checking rpc/rpc.h presence... yes
+checking for rpc/rpc.h... yes
+checking for rpc/xdr.h... yes
+checking for xdr_float in -lnsl... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking unistd.h usability... yes
+checking unistd.h presence... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking sys/types.h usability... yes
+checking sys/types.h presence... yes
+checking for sys/types.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking for working memcmp... yes
+checking return type of signal handlers... void
+checking for off_t... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking if malloc debugging is wanted... no
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for gettimeofday... yes
+checking for cbrt... yes
+checking for isnan... yes
+checking for _isnan... no
+checking for isfinite... no
+checking for _isfinite... no
+checking for fsync... yes
+checking for fileno... yes
+checking for bool... no
+checking for library containing posix_memalign... none required
+checking for library containing memalign... none required
+checking for _aligned_malloc... no
+checking size of int... 4
+checking size of long int... 8
+checking size of long long int... 8
+checking size of off_t... 8
+checking size of void*... 8
+checking for X... disabled
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for inline... inline
+checking for C/C++ restrict keyword... __restrict
+checking for uid_t... yes
+checking for gid_t... yes
+checking for sig_atomic_t... yes
+checking whether your compiler can handle assembly files (*.s)... yes
+checking whether as fully supports X86_64 SSE instructions... yes
+checking whether byte ordering is bigendian... (cached) no
+checking if dlopen supported... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/gmxlib/Makefile
+config.status: creating src/gmxlib/libgmx_mpi.pc
+config.status: creating src/gmxlib/gmx_blas/Makefile
+config.status: creating src/gmxlib/gmx_lapack/Makefile
+config.status: creating src/gmxlib/selection/Makefile
+config.status: creating src/gmxlib/statistics/Makefile
+config.status: creating src/gmxlib/trajana/Makefile
+config.status: creating src/gmxlib/thread_mpi/Makefile
+config.status: creating src/gmxlib/nonbonded/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_c/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_ia32_sse/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_ia32_sse2/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_x86_64_sse/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_x86_64_sse2/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_ppc_altivec/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_ia64_single/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_ia64_double/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_bluegene/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_power6/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_f77_single/Makefile
+config.status: creating src/gmxlib/nonbonded/nb_kernel_f77_double/Makefile
+config.status: creating include/Makefile
+config.status: creating include/types/Makefile
+config.status: creating include/thread_mpi/Makefile
+config.status: creating include/thread_mpi/atomic/Makefile
+config.status: creating src/mdlib/Makefile
+config.status: creating src/mdlib/libmd_mpi.pc
+config.status: creating src/kernel/Makefile
+config.status: creating src/kernel/libgmxpreprocess_mpi.pc
+config.status: creating src/tools/Makefile
+config.status: creating src/tools/libgmxana_mpi.pc
+config.status: creating src/ngmx/Makefile
+config.status: creating src/contrib/Makefile
+config.status: creating scripts/Makefile
+config.status: creating admin/Makefile
+config.status: creating share/Makefile
+config.status: creating share/tutor/Makefile
+config.status: creating share/tutor/gmxdemo/Makefile
+config.status: creating share/tutor/nmr1/Makefile
+config.status: creating share/tutor/nmr2/Makefile
+config.status: creating share/tutor/water/Makefile
+config.status: creating share/tutor/mixed/Makefile
+config.status: creating share/tutor/methanol/Makefile
+config.status: creating share/tutor/speptide/Makefile
+config.status: creating share/template/Makefile
+config.status: creating share/top/Makefile
+config.status: creating share/top/gmx.ff/Makefile
+config.status: creating share/top/gmx2.ff/Makefile
+config.status: creating share/top/encadv.ff/Makefile
+config.status: creating share/top/encads.ff/Makefile
+config.status: creating share/top/oplsaa.ff/Makefile
+config.status: creating share/top/gromos43a1.ff/Makefile
+config.status: creating share/top/gromos43a2.ff/Makefile
+config.status: creating share/top/gromos45a3.ff/Makefile
+config.status: creating share/top/gromos53a5.ff/Makefile
+config.status: creating share/top/gromos53a6.ff/Makefile
+config.status: creating share/top/charmm27.ff/Makefile
+config.status: creating share/top/amber94.ff/Makefile
+config.status: creating share/top/amber96.ff/Makefile
+config.status: creating share/top/amberGS.ff/Makefile
+config.status: creating share/top/amber99.ff/Makefile
+config.status: creating share/top/amber99sb.ff/Makefile
+config.status: creating share/top/amber99sb-ildn.ff/Makefile
+config.status: creating share/top/amber03.ff/Makefile
+config.status: creating share/html/Makefile
+config.status: creating share/html/images/Makefile
+config.status: creating share/html/online/Makefile
+config.status: creating man/Makefile
+config.status: creating man/man1/Makefile
+config.status: creating man/man7/Makefile
+config.status: creating Doxyfile
+config.status: creating src/config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --without-motif-includes, --without-motif-libraries

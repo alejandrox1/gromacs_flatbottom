@@ -1,0 +1,749 @@
+Making install in include
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+Making install in .
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs"
+ /usr/bin/install -c -m 644 3dview.h assert.h atomprop.h bondf.h calcgrid.h calch.h calcmu.h centerofmass.h chargegroup.h checkpoint.h confio.h constr.h copyrite.h coulomb.h dihre.h displacement.h disre.h do_fit.h domdec.h domdec_network.h ebin.h edsam.h enxio.h ffscanf.h filenm.h force.h futil.h gbutil.h gen_ad.h genborn.h gmx_ana.h gmx_arpack.h gmx_blas.h gmx_cyclecounter.h gmx_fatal.h gmx_fft.h gmx_ga2la.h gmx_lapack.h gmx_matrix.h gmx_parallel_3dfft.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs'
+ /usr/bin/install -c -m 644 gmx_random.h gmx_sort.h gmx_sse2_single.h gmx_statistics.h gmx_system_xdr.h gmx_wallcycle.h gmxcomplex.h gmxcpp.h gmxfio.h gpp_atomtype.h gpp_nextnb.h grompp.h gstat.h hackblock.h histogram.h index.h indexutil.h inputrec.h invblock.h macros.h magic.h main.h maths.h matio.h md5.h mdatoms.h mdebin.h mdrun.h mpelogging.h mshift.h mtop_util.h mtxio.h mvdata.h names.h nbsearch.h network.h nonbonded.h nrama.h nrjac.h nrnb.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs'
+ /usr/bin/install -c -m 644 ns.h nsgrid.h orires.h partdec.h pbc.h pdbio.h pdb2top.h perf_est.h physics.h pme.h poscalc.h position.h pppm.h princ.h pull.h qmmm.h random.h rbin.h rdgroup.h readinp.h resall.h rmpbc.h selection.h selmethod.h selparam.h selvalue.h sfactor.h shellfc.h shift.h smalloc.h sortwater.h sparsematrix.h split.h splitter.h statutil.h strdb.h string2.h symtab.h sysstuff.h tgroup.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs'
+ /usr/bin/install -c -m 644 topsort.h toputil.h tpxio.h trajana.h trnio.h txtdump.h typedefs.h update.h vcm.h vec.h viewit.h vmdio.h vsite.h warninp.h wgms.h wman.h writeps.h xdrf.h xtcio.h xvgr.h thread_mpi.h tmpi.h mainpage.h molfile_plugin.h vmddlopen.h vmdplugin.h oenv.h sighandler.h gmx_sse2_double.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+Making install in types
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/types'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/types'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/types" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/types"
+ /usr/bin/install -c -m 644 atoms.h forcerec.h ifunc.h oenv.h mdatom.h simple.h block.h constr.h energy.h graph.h inputrec.h nblist.h ns.h nsgrid.h symtab.h commrec.h enums.h group.h ishift.h globsig.h topology.h fcdata.h filenm.h idef.h matrix.h nrnb.h trx.h state.h pbc.h qmmmrec.h shellfc.h genborn.h iteratedconstraints.h nlistheuristics.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/types'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/types'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/types'
+Making install in thread_mpi
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+Making install in atomic
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi/atomic'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi/atomic'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi/atomic" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi/atomic"
+ /usr/bin/install -c -m 644 cycles.h gcc_intrinsics.h gcc_x86.h gcc.h gcc_ppc.h msvc.h gcc_ia64.h gcc_spinlock.h xlc_ppc.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi/atomic'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi/atomic'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi/atomic'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi"
+ /usr/bin/install -c -m 644 atomic.h event.h lock.h tmpi.h barrier.h mpi_bindings.h wait.h collective.h list.h threads.h numa_malloc.h '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/include/gromacs/thread_mpi'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include/thread_mpi'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/include'
+Making install in src
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+Making install in gmxlib
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+Making install in nonbonded
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+Making install in nb_kernel_x86_64_sse
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[5]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+Making install in nb_kernel_c
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[5]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[5]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+Making install in selection
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+Making install in statistics
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+Making install in trajana
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+Making install in thread_mpi
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/thread_mpi'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/thread_mpi'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/thread_mpi'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/thread_mpi'
+Making install in gmx_blas
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+Making install in gmx_lapack
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgmx.la '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+ /usr/bin/install -c -m 644 libgmx.pc '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+/usr/bin/install -c .libs/libgmx.so.6.0.0 /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx.so.6.0.0
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmx.so.6.0.0 libgmx.so.6 || { rm -f libgmx.so.6 && ln -s libgmx.so.6.0.0 libgmx.so.6; }; })
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmx.so.6.0.0 libgmx.so || { rm -f libgmx.so && ln -s libgmx.so.6.0.0 libgmx.so; }; })
+/usr/bin/install -c .libs/libgmx.lai /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx.la
+/usr/bin/install -c .libs/libgmx.a /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx.a
+chmod 644 /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx.a
+ranlib /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx.a
+PATH="$PATH:/sbin" ldconfig -n /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.so.6 is not a symbolic link
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+Making install in mdlib
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libmd.la '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+ /usr/bin/install -c -m 644 libmd.pc '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+libtool: install: warning: relinking `libmd.la'
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib; /bin/sh ../../libtool  --tag=CC --mode=relink cc -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99 -pthread -I./include -no-undefined -version-info 6:0:0 -lfftw3f -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -o libmd.la -rpath /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib calcmu.lo calcvir.lo constr.lo coupling.lo domdec.lo domdec_box.lo domdec_con.lo domdec_network.lo domdec_setup.lo domdec_top.lo ebin.lo edsam.lo ewald.lo force.lo forcerec.lo ghat.lo init.lo iteratedconstraints.lo md_support.lo mdatom.lo mdebin.lo minimize.lo mvxvf.lo ns.lo nlistheuristics.lo nsgrid.lo perf_est.lo genborn.lo genborn_sse2_single.lo genborn_sse2_double.lo genborn_allvsall.lo genborn_allvsall_sse2_single.lo genborn_allvsall_sse2_double.lo gmx_qhop_parm.lo gmx_qhop_xml.lo groupcoord.lo pme.lo pme_pp.lo pppm.lo partdec.lo pull.lo pullutil.lo rf_util.lo shakef.lo sim_util.lo shellfc.lo stat.lo tables.lo tgroup.lo tpi.lo update.lo vcm.lo vsite.lo wall.lo wnblist.lo csettle.lo clincs.lo qmmm.lo gmx_fft.lo gmx_parallel_3dfft.lo fft5d.lo gmx_wallcycle.lo qm_gaussian.lo qm_mopac.lo qm_gamess.lo gmx_fft_fftw2.lo gmx_fft_fftw3.lo gmx_fft_fftpack.lo gmx_fft_mkl.lo qm_orca.lo mdebin_bar.lo ../gmxlib/libgmx.la -lnsl -lm )  
+cc  -shared  .libs/calcmu.o .libs/calcvir.o .libs/constr.o .libs/coupling.o .libs/domdec.o .libs/domdec_box.o .libs/domdec_con.o .libs/domdec_network.o .libs/domdec_setup.o .libs/domdec_top.o .libs/ebin.o .libs/edsam.o .libs/ewald.o .libs/force.o .libs/forcerec.o .libs/ghat.o .libs/init.o .libs/iteratedconstraints.o .libs/md_support.o .libs/mdatom.o .libs/mdebin.o .libs/minimize.o .libs/mvxvf.o .libs/ns.o .libs/nlistheuristics.o .libs/nsgrid.o .libs/perf_est.o .libs/genborn.o .libs/genborn_sse2_single.o .libs/genborn_sse2_double.o .libs/genborn_allvsall.o .libs/genborn_allvsall_sse2_single.o .libs/genborn_allvsall_sse2_double.o .libs/gmx_qhop_parm.o .libs/gmx_qhop_xml.o .libs/groupcoord.o .libs/pme.o .libs/pme_pp.o .libs/pppm.o .libs/partdec.o .libs/pull.o .libs/pullutil.o .libs/rf_util.o .libs/shakef.o .libs/sim_util.o .libs/shellfc.o .libs/stat.o .libs/tables.o .libs/tgroup.o .libs/tpi.o .libs/update.o .libs/vcm.o .libs/vsite.o .libs/wall.o .libs/wnblist.o .libs/csettle.o .libs/clincs.o .libs/qmmm.o .libs/gmx_fft.o .libs/gmx_parallel_3dfft.o .libs/fft5d.o .libs/gmx_wallcycle.o .libs/qm_gaussian.o .libs/qm_mopac.o .libs/qm_gamess.o .libs/gmx_fft_fftw2.o .libs/gmx_fft_fftw3.o .libs/gmx_fft_fftpack.o .libs/gmx_fft_mkl.o .libs/qm_orca.o .libs/mdebin_bar.o  -Wl,--rpath -Wl,/usr/lib64 -Wl,--rpath -Wl,/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -L/usr/lib64 -lfftw3f -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lgmx -lnsl -lm  -msse2 -pthread -Wl,-soname -Wl,libmd.so.6 -o .libs/libmd.so.6.0.0
+/usr/bin/install -c .libs/libmd.so.6.0.0T /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.so.6.0.0
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libmd.so.6.0.0 libmd.so.6 || { rm -f libmd.so.6 && ln -s libmd.so.6.0.0 libmd.so.6; }; })
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libmd.so.6.0.0 libmd.so || { rm -f libmd.so && ln -s libmd.so.6.0.0 libmd.so; }; })
+/usr/bin/install -c .libs/libmd.lai /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.la
+/usr/bin/install -c .libs/libmd.a /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.a
+chmod 644 /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.a
+ranlib /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd.a
+PATH="$PATH:/sbin" ldconfig -n /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.so.6 is not a symbolic link
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+Making install in kernel
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgmxpreprocess.la '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+ /usr/bin/install -c -m 644 libgmxpreprocess.pc '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+libtool: install: warning: relinking `libgmxpreprocess.la'
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel; /bin/sh ../../libtool  --tag=CC --mode=relink cc -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99 -pthread -I./include -no-undefined -version-info 6:0:0 -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -o libgmxpreprocess.la -rpath /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib add_par.lo compute_io.lo convparm.lo fflibutil.lo gen_ad.lo gen_vsite.lo genhydro.lo gpp_atomtype.lo gpp_bond_atomtype.lo h_db.lo hackblock.lo hizzie.lo pdb2top.lo pgutil.lo readir.lo readpull.lo resall.lo sorting.lo specbond.lo ter_db.lo tomorse.lo topdirs.lo topexcl.lo topio.lo toppush.lo topshake.lo toputil.lo tpbcmp.lo vsite_parm.lo xlate.lo ../mdlib/libmd.la -lnsl -lm )  
+libtool: link: warning: `/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64//libfftw3f.la' seems to be moved
+cc  -shared  .libs/add_par.o .libs/compute_io.o .libs/convparm.o .libs/fflibutil.o .libs/gen_ad.o .libs/gen_vsite.o .libs/genhydro.o .libs/gpp_atomtype.o .libs/gpp_bond_atomtype.o .libs/h_db.o .libs/hackblock.o .libs/hizzie.o .libs/pdb2top.o .libs/pgutil.o .libs/readir.o .libs/readpull.o .libs/resall.o .libs/sorting.o .libs/specbond.o .libs/ter_db.o .libs/tomorse.o .libs/topdirs.o .libs/topexcl.o .libs/topio.o .libs/toppush.o .libs/topshake.o .libs/toputil.o .libs/tpbcmp.o .libs/vsite_parm.o .libs/xlate.o  -Wl,--rpath -Wl,/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lmd -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/.libs -lnsl -lm  -msse2 -pthread -Wl,-soname -Wl,libgmxpreprocess.so.6 -o .libs/libgmxpreprocess.so.6.0.0
+/usr/bin/install -c .libs/libgmxpreprocess.so.6.0.0T /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.so.6.0.0
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxpreprocess.so.6.0.0 libgmxpreprocess.so.6 || { rm -f libgmxpreprocess.so.6 && ln -s libgmxpreprocess.so.6.0.0 libgmxpreprocess.so.6; }; })
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxpreprocess.so.6.0.0 libgmxpreprocess.so || { rm -f libgmxpreprocess.so && ln -s libgmxpreprocess.so.6.0.0 libgmxpreprocess.so; }; })
+/usr/bin/install -c .libs/libgmxpreprocess.lai /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.la
+/usr/bin/install -c .libs/libgmxpreprocess.a /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.a
+chmod 644 /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.a
+ranlib /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess.a
+PATH="$PATH:/sbin" ldconfig -n /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.so.6 is not a symbolic link
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin"
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c grompp mdrun tpbconv pdb2gmx g_protonate g_luck gmxdump gmxcheck g_x2top '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin'
+/usr/bin/install -c .libs/grompp /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/grompp
+/usr/bin/install -c .libs/mdrun /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/mdrun
+/usr/bin/install -c .libs/tpbconv /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/tpbconv
+/usr/bin/install -c .libs/pdb2gmx /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/pdb2gmx
+/usr/bin/install -c .libs/g_protonate /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_protonate
+/usr/bin/install -c .libs/g_luck /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_luck
+/usr/bin/install -c .libs/gmxdump /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/gmxdump
+/usr/bin/install -c .libs/gmxcheck /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/gmxcheck
+/usr/bin/install -c .libs/g_x2top /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_x2top
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+Making install in tools
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/tools'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/tools'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgmxana.la '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+ /usr/bin/install -c -m 644 libgmxana.pc '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+libtool: install: warning: relinking `libgmxana.la'
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/tools; /bin/sh ../../libtool  --tag=CC --mode=relink cc -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99 -pthread -I./include -no-undefined -version-info 6:0:0 -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -o libgmxana.la -rpath /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib geminate.lo autocorr.lo expfit.lo polynomials.lo levenmar.lo anadih.lo pp2shift.lo dlist.lo eigio.lo cmat.lo eigensolver.lo nsc.lo hxprops.lo fitahx.lo gmx_analyze.lo gmx_anaeig.lo gmx_bar.lo gmx_angle.lo gmx_bond.lo gmx_bundle.lo gmx_chi.lo gmx_cluster.lo gmx_confrms.lo gmx_covar.lo gmx_current.lo gmx_dos.lo gmx_density.lo gmx_densmap.lo gmx_dih.lo gmx_dielectric.lo gmx_kinetics.lo gmx_spatial.lo gmx_dipoles.lo gmx_disre.lo gmx_dist.lo gmx_dyndom.lo gmx_enemat.lo gmx_energy.lo gmx_lie.lo gmx_filter.lo gmx_gyrate.lo gmx_h2order.lo gmx_hbond.lo gmx_helix.lo gmx_mindist.lo gmx_msd.lo gmx_morph.lo gmx_nmeig.lo gmx_nmens.lo gmx_order.lo gmx_principal.lo gmx_polystat.lo gmx_potential.lo gmx_rama.lo gmx_rdf.lo gmx_rms.lo gmx_rmsdist.lo gmx_rmsf.lo gmx_rotacf.lo gmx_rotmat.lo gmx_saltbr.lo gmx_sas.lo gmx_select.lo gmx_pme_error.lo gmx_options.lo gmx_sgangle.lo gmx_sorient.lo gmx_spol.lo gmx_tcaf.lo gmx_traj.lo gmx_velacc.lo gmx_helixorient.lo gmx_clustsize.lo gmx_mdmat.lo gmx_wham.lo correl.lo gmx_sham.lo gmx_nmtraj.lo gmx_trjconv.lo gmx_trjcat.lo gmx_trjorder.lo gmx_xpm2ps.lo gmx_editconf.lo gmx_genbox.lo gmx_genion.lo gmx_genconf.lo gmx_genpr.lo gmx_eneconv.lo gmx_vanhove.lo gmx_wheel.lo addconf.lo gmx_tune_pme.lo gmx_membed.lo calcpot.lo edittop.lo dens_filter.lo powerspect.lo gmx_densorder.lo gmx_hydorder.lo binsearch.lo ../gmxlib/libgmx.la ../mdlib/libmd.la -lnsl -lm )  
+libtool: link: warning: `/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64//libfftw3f.la' seems to be moved
+cc  -shared  .libs/geminate.o .libs/autocorr.o .libs/expfit.o .libs/polynomials.o .libs/levenmar.o .libs/anadih.o .libs/pp2shift.o .libs/dlist.o .libs/eigio.o .libs/cmat.o .libs/eigensolver.o .libs/nsc.o .libs/hxprops.o .libs/fitahx.o .libs/gmx_analyze.o .libs/gmx_anaeig.o .libs/gmx_bar.o .libs/gmx_angle.o .libs/gmx_bond.o .libs/gmx_bundle.o .libs/gmx_chi.o .libs/gmx_cluster.o .libs/gmx_confrms.o .libs/gmx_covar.o .libs/gmx_current.o .libs/gmx_dos.o .libs/gmx_density.o .libs/gmx_densmap.o .libs/gmx_dih.o .libs/gmx_dielectric.o .libs/gmx_kinetics.o .libs/gmx_spatial.o .libs/gmx_dipoles.o .libs/gmx_disre.o .libs/gmx_dist.o .libs/gmx_dyndom.o .libs/gmx_enemat.o .libs/gmx_energy.o .libs/gmx_lie.o .libs/gmx_filter.o .libs/gmx_gyrate.o .libs/gmx_h2order.o .libs/gmx_hbond.o .libs/gmx_helix.o .libs/gmx_mindist.o .libs/gmx_msd.o .libs/gmx_morph.o .libs/gmx_nmeig.o .libs/gmx_nmens.o .libs/gmx_order.o .libs/gmx_principal.o .libs/gmx_polystat.o .libs/gmx_potential.o .libs/gmx_rama.o .libs/gmx_rdf.o .libs/gmx_rms.o .libs/gmx_rmsdist.o .libs/gmx_rmsf.o .libs/gmx_rotacf.o .libs/gmx_rotmat.o .libs/gmx_saltbr.o .libs/gmx_sas.o .libs/gmx_select.o .libs/gmx_pme_error.o .libs/gmx_options.o .libs/gmx_sgangle.o .libs/gmx_sorient.o .libs/gmx_spol.o .libs/gmx_tcaf.o .libs/gmx_traj.o .libs/gmx_velacc.o .libs/gmx_helixorient.o .libs/gmx_clustsize.o .libs/gmx_mdmat.o .libs/gmx_wham.o .libs/correl.o .libs/gmx_sham.o .libs/gmx_nmtraj.o .libs/gmx_trjconv.o .libs/gmx_trjcat.o .libs/gmx_trjorder.o .libs/gmx_xpm2ps.o .libs/gmx_editconf.o .libs/gmx_genbox.o .libs/gmx_genion.o .libs/gmx_genconf.o .libs/gmx_genpr.o .libs/gmx_eneconv.o .libs/gmx_vanhove.o .libs/gmx_wheel.o .libs/addconf.o .libs/gmx_tune_pme.o .libs/gmx_membed.o .libs/calcpot.o .libs/edittop.o .libs/dens_filter.o .libs/powerspect.o .libs/gmx_densorder.o .libs/gmx_hydorder.o .libs/binsearch.o  -Wl,--rpath -Wl,/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/.libs -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/../fftw-3.3.3_sse2/exec/lib -L/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lgmx -lmd -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/ -lnsl -lm  -msse2 -pthread -Wl,-soname -Wl,libgmxana.so.6 -o .libs/libgmxana.so.6.0.0
+/usr/bin/install -c .libs/libgmxana.so.6.0.0T /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.so.6.0.0
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxana.so.6.0.0 libgmxana.so.6 || { rm -f libgmxana.so.6 && ln -s libgmxana.so.6.0.0 libgmxana.so.6; }; })
+(cd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxana.so.6.0.0 libgmxana.so || { rm -f libgmxana.so && ln -s libgmxana.so.6.0.0 libgmxana.so; }; })
+/usr/bin/install -c .libs/libgmxana.lai /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.la
+/usr/bin/install -c .libs/libgmxana.a /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.a
+chmod 644 /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.a
+ranlib /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxana.a
+PATH="$PATH:/sbin" ldconfig -n /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.so.6 is not a symbolic link
+
+ldconfig: /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.so.6 is not a symbolic link
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin"
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c do_dssp editconf eneconv genbox genconf genrestr g_nmtraj make_ndx mk_angndx trjcat trjconv trjorder g_wheel xpm2ps genion g_anadock make_edi g_analyze g_anaeig g_bar g_angle g_bond g_bundle g_chi g_cluster g_confrms g_covar g_current g_dos g_density g_densmap g_dih g_dielectric g_helixorient g_principal g_dipoles g_disre g_dist g_dyndom g_enemat g_energy g_lie g_filter g_gyrate g_h2order g_hbond g_helix g_mindist g_msd g_morph g_nmeig g_nmens g_order g_kinetics g_polystat g_potential g_rama g_rdf g_rms g_rmsdist g_rmsf g_rotacf g_rotmat g_saltbr g_sas g_select g_sgangle g_sham g_sorient g_spol g_spatial g_pme_error g_options g_tcaf g_traj g_tune_pme g_vanhove g_velacc g_membed g_clustsize g_mdmat g_wham g_kinetics g_sigeps g_densorder g_hydorder '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin'
+/usr/bin/install -c .libs/do_dssp /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/do_dssp
+/usr/bin/install -c .libs/editconf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/editconf
+/usr/bin/install -c .libs/eneconv /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/eneconv
+/usr/bin/install -c .libs/genbox /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/genbox
+/usr/bin/install -c .libs/genconf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/genconf
+/usr/bin/install -c .libs/genrestr /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/genrestr
+/usr/bin/install -c .libs/g_nmtraj /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_nmtraj
+/usr/bin/install -c .libs/make_ndx /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/make_ndx
+/usr/bin/install -c .libs/mk_angndx /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/mk_angndx
+/usr/bin/install -c .libs/trjcat /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/trjcat
+/usr/bin/install -c .libs/trjconv /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/trjconv
+/usr/bin/install -c .libs/trjorder /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/trjorder
+/usr/bin/install -c .libs/g_wheel /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_wheel
+/usr/bin/install -c .libs/xpm2ps /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/xpm2ps
+/usr/bin/install -c .libs/genion /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/genion
+/usr/bin/install -c .libs/g_anadock /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_anadock
+/usr/bin/install -c .libs/make_edi /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/make_edi
+/usr/bin/install -c .libs/g_analyze /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_analyze
+/usr/bin/install -c .libs/g_anaeig /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_anaeig
+/usr/bin/install -c .libs/g_bar /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_bar
+/usr/bin/install -c .libs/g_angle /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_angle
+/usr/bin/install -c .libs/g_bond /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_bond
+/usr/bin/install -c .libs/g_bundle /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_bundle
+/usr/bin/install -c .libs/g_chi /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_chi
+/usr/bin/install -c .libs/g_cluster /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_cluster
+/usr/bin/install -c .libs/g_confrms /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_confrms
+/usr/bin/install -c .libs/g_covar /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_covar
+/usr/bin/install -c .libs/g_current /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_current
+/usr/bin/install -c .libs/g_dos /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dos
+/usr/bin/install -c .libs/g_density /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_density
+/usr/bin/install -c .libs/g_densmap /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_densmap
+/usr/bin/install -c .libs/g_dih /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dih
+/usr/bin/install -c .libs/g_dielectric /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dielectric
+/usr/bin/install -c .libs/g_helixorient /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_helixorient
+/usr/bin/install -c .libs/g_principal /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_principal
+/usr/bin/install -c .libs/g_dipoles /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dipoles
+/usr/bin/install -c .libs/g_disre /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_disre
+/usr/bin/install -c .libs/g_dist /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dist
+/usr/bin/install -c .libs/g_dyndom /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_dyndom
+/usr/bin/install -c .libs/g_enemat /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_enemat
+/usr/bin/install -c .libs/g_energy /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_energy
+/usr/bin/install -c .libs/g_lie /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_lie
+/usr/bin/install -c .libs/g_filter /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_filter
+/usr/bin/install -c .libs/g_gyrate /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_gyrate
+/usr/bin/install -c .libs/g_h2order /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_h2order
+/usr/bin/install -c .libs/g_hbond /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_hbond
+/usr/bin/install -c .libs/g_helix /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_helix
+/usr/bin/install -c .libs/g_mindist /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_mindist
+/usr/bin/install -c .libs/g_msd /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_msd
+/usr/bin/install -c .libs/g_morph /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_morph
+/usr/bin/install -c .libs/g_nmeig /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_nmeig
+/usr/bin/install -c .libs/g_nmens /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_nmens
+/usr/bin/install -c .libs/g_order /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_order
+/usr/bin/install -c .libs/g_kinetics /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_kinetics
+/usr/bin/install -c .libs/g_polystat /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_polystat
+/usr/bin/install -c .libs/g_potential /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_potential
+/usr/bin/install -c .libs/g_rama /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rama
+/usr/bin/install -c .libs/g_rdf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rdf
+/usr/bin/install -c .libs/g_rms /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rms
+/usr/bin/install -c .libs/g_rmsdist /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rmsdist
+/usr/bin/install -c .libs/g_rmsf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rmsf
+/usr/bin/install -c .libs/g_rotacf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rotacf
+/usr/bin/install -c .libs/g_rotmat /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_rotmat
+/usr/bin/install -c .libs/g_saltbr /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_saltbr
+/usr/bin/install -c .libs/g_sas /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_sas
+/usr/bin/install -c .libs/g_select /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_select
+/usr/bin/install -c .libs/g_sgangle /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_sgangle
+/usr/bin/install -c .libs/g_sham /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_sham
+/usr/bin/install -c .libs/g_sorient /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_sorient
+/usr/bin/install -c .libs/g_spol /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_spol
+/usr/bin/install -c .libs/g_spatial /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_spatial
+/usr/bin/install -c .libs/g_pme_error /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_pme_error
+/usr/bin/install -c .libs/g_options /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_options
+/usr/bin/install -c .libs/g_tcaf /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_tcaf
+/usr/bin/install -c .libs/g_traj /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_traj
+/usr/bin/install -c .libs/g_tune_pme /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_tune_pme
+/usr/bin/install -c .libs/g_vanhove /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_vanhove
+/usr/bin/install -c .libs/g_velacc /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_velacc
+/usr/bin/install -c .libs/g_membed /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_membed
+/usr/bin/install -c .libs/g_clustsize /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_clustsize
+/usr/bin/install -c .libs/g_mdmat /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_mdmat
+/usr/bin/install -c .libs/g_wham /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_wham
+/usr/bin/install -c .libs/g_kinetics /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_kinetics
+/usr/bin/install -c .libs/g_sigeps /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_sigeps
+/usr/bin/install -c .libs/g_densorder /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_densorder
+/usr/bin/install -c .libs/g_hydorder /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/g_hydorder
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/tools'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/tools'
+Making install in ngmx
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/ngmx'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/ngmx'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin"
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/ngmx'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/ngmx'
+Making install in contrib
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/contrib'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/contrib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/contrib'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src/contrib'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/src'
+Making install in admin
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/admin'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/admin'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/admin'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/admin'
+Making install in scripts
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/scripts'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/scripts'
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin"
+make[2]: Nothing to be done for `install-data-am'.
+ /usr/bin/install -c GMXRC GMXRC.csh GMXRC.bash GMXRC.zsh '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin'
+ /usr/bin/install -c completion.csh completion.bash completion.zsh demux.pl xplor2gmx.pl '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/scripts'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/scripts'
+Making install in share
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+Making install in top
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+Making install in encads.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encads.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encads.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encads.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encads.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp f3c.itp aminoacids.hdb ffbonded.itp aminoacids.n.tdb ffnonbonded.itp aminoacids.rtp forcefield.doc aminoacids.r2b forcefield.itp watermodels.dat '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encads.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encads.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encads.ff'
+Making install in encadv.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encadv.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encadv.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encadv.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encadv.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp aminoacids.hdb ffbonded.itp aminoacids.n.tdb ffnonbonded.itp aminoacids.rtp forcefield.doc aminoacids.r2b forcefield.itp watermodels.dat '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/encadv.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encadv.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/encadv.ff'
+Making install in gmx.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp h2p4o13.itp h2p8o25.itp h2po4.itp 1mlg.itp 2mlg.itp decane.itp dlg.itp fa.itp tfe.itp decane50.gro watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx.ff'
+Making install in gmx2.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx2.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx2.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx2.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx2.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gmx2.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx2.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gmx2.ff'
+Making install in gromos43a1.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a1.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a1.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a1.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a1.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b methanol.itp methanol216.gro watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a1.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a1.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a1.ff'
+Making install in gromos43a2.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a2.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a2.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a2.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a2.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos43a2.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a2.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos43a2.ff'
+Making install in gromos45a3.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos45a3.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos45a3.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos45a3.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos45a3.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos45a3.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos45a3.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos45a3.ff'
+Making install in gromos53a5.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a5.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a5.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a5.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a5.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b atomname2type.n2t watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a5.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a5.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a5.ff'
+Making install in gromos53a6.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a6.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a6.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a6.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a6.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b watermodels.dat ff_dum.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/gromos53a6.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a6.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/gromos53a6.ff'
+Making install in oplsaa.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/oplsaa.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/oplsaa.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/oplsaa.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/oplsaa.ff"
+ /usr/bin/install -c -m 644 aminoacids.c.tdb atomtypes.atp ions.itp aminoacids.hdb ffbonded.itp spc.itp aminoacids.n.tdb ffnonbonded.itp spce.itp aminoacids.rtp forcefield.doc tip3p.itp aminoacids.vsd forcefield.itp tip4p.itp aminoacids.r2b tip5p.itp methanol.itp ethanol.itp 1propanol.itp atomname2type.n2t watermodels.dat gbsa.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/oplsaa.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/oplsaa.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/oplsaa.ff'
+Making install in charmm27.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/charmm27.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/charmm27.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/charmm27.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/charmm27.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd ffnanonbonded.itp lipids.hdb aminoacids.c.tdb atomtypes.atp ffnonbonded.itp lipids.rtp aminoacids.hdb cmap.itp forcefield.doc rna.rtp aminoacids.n.tdb dna.rtp forcefield.itp spc.itp aminoacids.r2b ffbonded.itp gb.itp tip3p.itp aminoacids.rtp ffnabonded.itp ions.itp tip4p.itp spce.itp tips3p.itp watermodels.dat tip5p.itp dna.hdb dna.n.tdb dna.c.tdb dna.arn rna.hdb rna.n.tdb rna.c.tdb rna.arn rna.r2b '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/charmm27.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/charmm27.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/charmm27.ff'
+Making install in amber94.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber94.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber94.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber94.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber94.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber94.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber94.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber94.ff'
+Making install in amber96.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber96.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber96.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber96.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber96.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber96.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber96.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber96.ff'
+Making install in amberGS.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amberGS.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amberGS.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amberGS.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amberGS.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amberGS.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amberGS.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amberGS.ff'
+Making install in amber99.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99.ff'
+Making install in amber99sb.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb.ff'
+Making install in amber99sb-ildn.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb-ildn.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb-ildn.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb-ildn.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb-ildn.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber99sb-ildn.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb-ildn.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber99sb-ildn.ff'
+Making install in amber03.ff
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber03.ff'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber03.ff'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber03.ff" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber03.ff"
+ /usr/bin/install -c -m 644 aminoacids.arn aminoacids.vsd aminoacids.c.tdb atomtypes.atp ffnonbonded.itp aminoacids.hdb forcefield.doc dna.rtp dna.r2b dna.arn dna.hdb aminoacids.n.tdb forcefield.itp rna.rtp rna.r2b rna.arn rna.hdb aminoacids.r2b ffbonded.itp tip3p.itp urea.itp aminoacids.rtp ions.itp tip4p.itp tip4pew.itp tip5p.itp watermodels.dat gbsa.itp spc.itp spce.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top/amber03.ff'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber03.ff'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top/amber03.ff'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top"
+ /usr/bin/install -c -m 644 flexspc.itp flexspce.itp flexwat-ferguson.itp ions.itp spc.itp spce.itp tip3p.itp tip4p.itp dgsolv.dat electroneg.dat spc216.gro tip4p.gro residuetypes.dat atommass.dat bromacs.dat ca-shift.dat cb-shift.dat co-shift.dat edissoc.dat gurgle.dat ha-shift.dat links.dat phbres.dat random.dat refi_aa.dat specbond.dat surface.dat vdwradii.dat xlateat.dat highway.dat sfactor.dat export.dlg bonds.dlg ss.map ps.m2p table6-10.xvg table6-11.xvg table6-12.xvg table6-8.xvg table6-9.xvg '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top'
+ /usr/bin/install -c -m 644 atom_nom.tbl tip5p.gro sw.itp elements.dat defselection.dat ffG43a1.itp ffG53a5.itp ffencads.itp ffgmx2.itp ffG43a2.itp ffG53a6.itp ffencadv.itp ffoplsaa-n.tst ffG45a3.itp ffgmx.itp ffoplsaa.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/top'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/top'
+Making install in tutor
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+Making install in nmr1
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr1'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr1'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr1" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr1"
+ /usr/bin/install -c -m 644 conf.gro grompp.mdp pep.pdb topol.top '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr1'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr1'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr1'
+Making install in nmr2
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr2'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr2'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr2" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr2"
+ /usr/bin/install -c -m 644 conf.gro genconf.gcp grompp.mdp pep.pdb topol.top '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/nmr2'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr2'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/nmr2'
+Making install in speptide
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/speptide'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/speptide'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/speptide" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/speptide"
+ /usr/bin/install -c -m 644 em.mdp full.mdp pr.mdp speptide.pdb '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/speptide'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/speptide'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/speptide'
+Making install in water
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/water'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/water'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/water" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/water"
+ /usr/bin/install -c -m 644 index.ndx conf.gro spc216.pdb grompp.mdp topol.top '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/water'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/water'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/water'
+Making install in gmxdemo
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/gmxdemo'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/gmxdemo'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo"
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo"
+ /usr/bin/install -c -m 644 cpeptide.pdb '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo'
+ /usr/bin/install -c demo '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/gmxdemo'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/gmxdemo'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/gmxdemo'
+Making install in methanol
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/methanol'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/methanol'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/methanol" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/methanol"
+ /usr/bin/install -c -m 644 index.ndx conf.gro methanol.pdb grompp.mdp topol.top methanol.itp '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/methanol'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/methanol'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/methanol'
+Making install in mixed
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/mixed'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/mixed'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/mixed" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/mixed"
+ /usr/bin/install -c -m 644 index.ndx conf.gro mixed.pdb grompp.mdp topol.top '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/tutor/mixed'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/mixed'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor/mixed'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/tutor'
+Making install in template
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+make  install-am
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/template" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/template"
+ /usr/bin/install -c -m 644 template.c README Makefile.x86_64-unknown-linux-gnu Makefile.pkg '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/template'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/template'
+Making install in html
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+Making install in .
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html"
+ /usr/bin/install -c -m 644 online.html gmxfaq.html '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+Making install in images
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/images'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/images'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/images" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/images"
+ /usr/bin/install -c -m 644 features.gif flow_leftrightup.gif flow_vrule.gif flow_down.gif flow_leftup.gif links.gif articles.gif flow_downleft.gif flow_right+left.gif mail.gif bench.gif flow_hline.gif flow_right.gif manual.gif charts_down.gif flow_left.gif flow_rightleftdown.gif gmxlogo_small.jpg charts_up.gif flow_leftright.gif flow_uprightleft.gif software.gif faq.gif flow_leftrightdown.gif flow_vline.gif topologies.gif plotje.gif xvgr.gif 1ctf-0.jpg 1ctf-0.2.jpg 1ctf-0.5.jpg 1ctf-1.jpg 1ctf-4.jpg 1ctf-10.jpg '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/images'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/images'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/images'
+Making install in online
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/online'
+make[4]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/online'
+make[4]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/online" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/online"
+ /usr/bin/install -c -m 644 cpt.html dat.html g_disre.html g_sorient.html ndx.html dlg.html g_dist.html g_tcaf.html ngmx.html do_dssp.html g_dyndom.html g_traj.html edi.html g_enemat.html g_velacc.html options.html editconf.html g_energy.html genbox.html out.html edo.html g_gyrate.html genconf.html pdb.html edr.html g_h2order.html genion.html pdb2gmx.html ene.html g_hbond.html genpr.html protonate.html eneconv.html g_helix.html getting_started.html rtp.html eps.html g_lie.html gmxcheck.html tex.html '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/online'
+ /usr/bin/install -c -m 644 files.html g_mdmat.html gmxdump.html top.html flow.html g_mindist.html gro.html tpa.html g87.html g_morph.html grompp.html tpb.html g96.html g_msd.html hat.html tpbconv.html g_anaeig.html g_nmeig.html highway.html tpr.html g_analyze.html g_nmens.html include_bot.html trj.html g_angle.html g_order.html include_top.html trjcat.html g_bond.html g_potential.html itp.html trjconv.html g_bundle.html g_rama.html log.html trjorder.html g_chi.html g_rdf.html m2p.html trr.html '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/online'
+ /usr/bin/install -c -m 644 g_cluster.html g_rms.html make_ndx.html wheel.html g_confrms.html g_rmsdist.html map.html x2top.html g_covar.html g_rmsf.html mdp.html xpm.html g_density.html g_rotacf.html mdp_opt.html xpm2ps.html g_dielectric.html g_saltbr.html mdrun.html xrama.html g_dih.html g_sas.html mk_angndx.html xtc.html g_dipoles.html g_sgangle.html mtx.html xvg.html g_densmap.html g_sham.html make_edi.html g_densorder.html style.css water.html gmxdemo.html speptide.html yourown.html methanol.html mixed.html protunf.html '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/gromacs/html/online'
+make[4]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/online'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html/online'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share/html'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/share'
+Making install in man
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+Making install in man1
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man1'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man1'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man1" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man1"
+ /usr/bin/install -c -m 644 do_dssp.1 editconf.1 eneconv.1 g_anadock.1 g_anaeig.1 g_analyze.1 g_angle.1 g_bar.1 g_bond.1 g_bundle.1 g_chi.1 g_cluster.1 g_clustsize.1 g_confrms.1 g_covar.1 g_current.1 g_density.1 g_densmap.1 g_densorder.1 g_dielectric.1 g_dih.1 g_dipoles.1 g_disre.1 g_dist.1 g_dyndom.1 g_enemat.1 g_energy.1 g_filter.1 g_gyrate.1 g_h2order.1 g_hbond.1 g_helix.1 g_helixorient.1 g_hydorder.1 g_lie.1 g_mdmat.1 g_membed.1 g_mindist.1 g_morph.1 g_msd.1 '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man1'
+ /usr/bin/install -c -m 644 g_nmeig.1 g_nmens.1 g_nmtraj.1 g_options.1 g_order.1 g_pme_error.1 g_polystat.1 g_potential.1 g_principal.1 g_protonate.1 g_rama.1 g_rdf.1 g_rms.1 g_rmsdist.1 g_rmsf.1 g_rotacf.1 g_rotmat.1 g_saltbr.1 g_sas.1 g_select.1 g_sgangle.1 g_sham.1 g_sigeps.1 g_sorient.1 g_spatial.1 g_spol.1 g_tcaf.1 g_traj.1 g_tune_pme.1 g_vanhove.1 g_velacc.1 g_wham.1 g_wheel.1 g_x2top.1 g_xrama.1 genbox.1 genconf.1 genion.1 genrestr.1 gmxcheck.1 '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man1'
+ /usr/bin/install -c -m 644 gmxdump.1 grompp.1 make_edi.1 make_ndx.1 mdrun.1 mk_angndx.1 ngmx.1 pdb2gmx.1 tpbconv.1 trjcat.1 trjconv.1 trjorder.1 xpm2ps.1 '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man1'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man1'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man1'
+Making install in man7
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man7'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man7'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man7" || /bin/mkdir -p "/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man7"
+ /usr/bin/install -c -m 644 gromacs.7 '/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/share/man/man7'
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man7'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man/man7'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/man'
+make[1]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'
+make[2]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'
+make  install-exec-hook
+make[2]: Nothing to be done for `install-data-am'.
+make[3]: Entering directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'
+
+GROMACS is installed under /home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm/exec.
+Make sure to update your PATH and MANPATH to find the
+programs and unix manual pages, and possibly LD_LIBRARY_PATH
+or /etc/ld.so.conf if you are using dynamic libraries.
+
+Please run "make tests" now to verify your installation.
+
+If you want links to the executables in /usr/local/bin,
+you can issue "make links" now.
+make[3]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'
+make[2]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'
+make[1]: Leaving directory `/home/alarcj/exe/gromacs-4.5.5_flatbottom_3.0nm'

@@ -1,0 +1,178 @@
+(cd ./src/gmxlib && make install ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+Making install in nonbonded
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+Making install in nb_kernel_x86_64_sse
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+Making install in nb_kernel_c
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded/nb_kernel_c'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/nonbonded'
+Making install in selection
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/selection'
+Making install in statistics
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/statistics'
+Making install in trajana
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/trajana'
+Making install in gmx_blas
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_blas'
+Making install in gmx_lapack
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/gmx_lapack'
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+test -z "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgmx_mpi.la '/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+/usr/bin/install -c .libs/libgmx_mpi.so.6.0.0 /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.so.6.0.0
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmx_mpi.so.6.0.0 libgmx_mpi.so.6 || { rm -f libgmx_mpi.so.6 && ln -s libgmx_mpi.so.6.0.0 libgmx_mpi.so.6; }; })
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmx_mpi.so.6.0.0 libgmx_mpi.so || { rm -f libgmx_mpi.so && ln -s libgmx_mpi.so.6.0.0 libgmx_mpi.so; }; })
+/usr/bin/install -c .libs/libgmx_mpi.lai /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.la
+/usr/bin/install -c .libs/libgmx_mpi.a /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.a
+chmod 644 /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.a
+ranlib /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmx_mpi.a
+PATH="$PATH:/sbin" ldconfig -n /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libgmx_mpi.pc '/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib'
+(cd ./src/mdlib && make install ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+test -z "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libmd_mpi.la '/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+libtool: install: warning: relinking `libmd_mpi.la'
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib; /bin/sh ../../libtool  --tag=CC --mode=relink mpicc -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99 -no-undefined -version-info 6:0:0 -lfftw3f -L/home/nealec/exe/fftw-3.3.3_sse2/exec/lib -o libmd_mpi.la -rpath /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib calcmu.lo calcvir.lo constr.lo coupling.lo domdec.lo domdec_box.lo domdec_con.lo domdec_network.lo domdec_setup.lo domdec_top.lo ebin.lo edsam.lo ewald.lo force.lo forcerec.lo ghat.lo init.lo iteratedconstraints.lo md_support.lo mdatom.lo mdebin.lo minimize.lo mvxvf.lo ns.lo nlistheuristics.lo nsgrid.lo perf_est.lo genborn.lo genborn_sse2_single.lo genborn_sse2_double.lo genborn_allvsall.lo genborn_allvsall_sse2_single.lo genborn_allvsall_sse2_double.lo gmx_qhop_parm.lo gmx_qhop_xml.lo groupcoord.lo pme.lo pme_pp.lo pppm.lo partdec.lo pull.lo pullutil.lo rf_util.lo shakef.lo sim_util.lo shellfc.lo stat.lo tables.lo tgroup.lo tpi.lo update.lo vcm.lo vsite.lo wall.lo wnblist.lo csettle.lo clincs.lo qmmm.lo gmx_fft.lo gmx_parallel_3dfft.lo fft5d.lo gmx_wallcycle.lo qm_gaussian.lo qm_mopac.lo qm_gamess.lo gmx_fft_fftw2.lo gmx_fft_fftw3.lo gmx_fft_fftpack.lo gmx_fft_mkl.lo qm_orca.lo mdebin_bar.lo ../gmxlib/libgmx_mpi.la -lnsl -lm )  
+mpicc -shared  .libs/calcmu.o .libs/calcvir.o .libs/constr.o .libs/coupling.o .libs/domdec.o .libs/domdec_box.o .libs/domdec_con.o .libs/domdec_network.o .libs/domdec_setup.o .libs/domdec_top.o .libs/ebin.o .libs/edsam.o .libs/ewald.o .libs/force.o .libs/forcerec.o .libs/ghat.o .libs/init.o .libs/iteratedconstraints.o .libs/md_support.o .libs/mdatom.o .libs/mdebin.o .libs/minimize.o .libs/mvxvf.o .libs/ns.o .libs/nlistheuristics.o .libs/nsgrid.o .libs/perf_est.o .libs/genborn.o .libs/genborn_sse2_single.o .libs/genborn_sse2_double.o .libs/genborn_allvsall.o .libs/genborn_allvsall_sse2_single.o .libs/genborn_allvsall_sse2_double.o .libs/gmx_qhop_parm.o .libs/gmx_qhop_xml.o .libs/groupcoord.o .libs/pme.o .libs/pme_pp.o .libs/pppm.o .libs/partdec.o .libs/pull.o .libs/pullutil.o .libs/rf_util.o .libs/shakef.o .libs/sim_util.o .libs/shellfc.o .libs/stat.o .libs/tables.o .libs/tgroup.o .libs/tpi.o .libs/update.o .libs/vcm.o .libs/vsite.o .libs/wall.o .libs/wnblist.o .libs/csettle.o .libs/clincs.o .libs/qmmm.o .libs/gmx_fft.o .libs/gmx_parallel_3dfft.o .libs/fft5d.o .libs/gmx_wallcycle.o .libs/qm_gaussian.o .libs/qm_mopac.o .libs/qm_gamess.o .libs/gmx_fft_fftw2.o .libs/gmx_fft_fftw3.o .libs/gmx_fft_fftpack.o .libs/gmx_fft_mkl.o .libs/qm_orca.o .libs/mdebin_bar.o  -Wl,--rpath -Wl,/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lfftw3f -L/home/nealec/exe/fftw-3.3.3_sse2/exec/lib -L/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lgmx_mpi -lnsl -lm  -msse2 -Wl,-soname -Wl,libmd_mpi.so.6 -o .libs/libmd_mpi.so.6.0.0
+/usr/bin/install -c .libs/libmd_mpi.so.6.0.0T /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.so.6.0.0
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libmd_mpi.so.6.0.0 libmd_mpi.so.6 || { rm -f libmd_mpi.so.6 && ln -s libmd_mpi.so.6.0.0 libmd_mpi.so.6; }; })
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libmd_mpi.so.6.0.0 libmd_mpi.so || { rm -f libmd_mpi.so && ln -s libmd_mpi.so.6.0.0 libmd_mpi.so; }; })
+/usr/bin/install -c .libs/libmd_mpi.lai /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.la
+/usr/bin/install -c .libs/libmd_mpi.a /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.a
+chmod 644 /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.a
+ranlib /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libmd_mpi.a
+PATH="$PATH:/sbin" ldconfig -n /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libmd_mpi.pc '/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/pkgconfig'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/mdlib'
+(cd ./src/kernel && make install-libLTLIBRARIES ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+test -z "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgmxpreprocess_mpi.la '/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib'
+libtool: install: warning: relinking `libgmxpreprocess_mpi.la'
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel; /bin/sh ../../libtool  --tag=CC --mode=relink mpicc -O3 -fomit-frame-pointer -finline-functions -Wall -Wno-unused -msse2 -funroll-all-loops -std=gnu99 -no-undefined -version-info 6:0:0 -L/home/nealec/exe/fftw-3.3.3_sse2/exec/lib -o libgmxpreprocess_mpi.la -rpath /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib add_par.lo compute_io.lo convparm.lo fflibutil.lo gen_ad.lo gen_vsite.lo genhydro.lo gpp_atomtype.lo gpp_bond_atomtype.lo h_db.lo hackblock.lo hizzie.lo pdb2top.lo pgutil.lo readir.lo readpull.lo resall.lo sorting.lo specbond.lo ter_db.lo tomorse.lo topdirs.lo topexcl.lo topio.lo toppush.lo topshake.lo toputil.lo tpbcmp.lo vsite_parm.lo xlate.lo ../mdlib/libmd_mpi.la -lnsl -lm )  
+mpicc -shared  .libs/add_par.o .libs/compute_io.o .libs/convparm.o .libs/fflibutil.o .libs/gen_ad.o .libs/gen_vsite.o .libs/genhydro.o .libs/gpp_atomtype.o .libs/gpp_bond_atomtype.o .libs/h_db.o .libs/hackblock.o .libs/hizzie.o .libs/pdb2top.o .libs/pgutil.o .libs/readir.o .libs/readpull.o .libs/resall.o .libs/sorting.o .libs/specbond.o .libs/ter_db.o .libs/tomorse.o .libs/topdirs.o .libs/topexcl.o .libs/topio.o .libs/toppush.o .libs/topshake.o .libs/toputil.o .libs/tpbcmp.o .libs/vsite_parm.o .libs/xlate.o  -Wl,--rpath -Wl,/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -L/home/nealec/exe/fftw-3.3.3_sse2/exec/lib -L/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib -lmd_mpi -L/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/gmxlib/.libs -lnsl -lm  -msse2 -Wl,-soname -Wl,libgmxpreprocess_mpi.so.6 -o .libs/libgmxpreprocess_mpi.so.6.0.0
+/usr/bin/install -c .libs/libgmxpreprocess_mpi.so.6.0.0T /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.so.6.0.0
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxpreprocess_mpi.so.6.0.0 libgmxpreprocess_mpi.so.6 || { rm -f libgmxpreprocess_mpi.so.6 && ln -s libgmxpreprocess_mpi.so.6.0.0 libgmxpreprocess_mpi.so.6; }; })
+(cd /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib && { ln -s -f libgmxpreprocess_mpi.so.6.0.0 libgmxpreprocess_mpi.so || { rm -f libgmxpreprocess_mpi.so && ln -s libgmxpreprocess_mpi.so.6.0.0 libgmxpreprocess_mpi.so; }; })
+/usr/bin/install -c .libs/libgmxpreprocess_mpi.lai /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.la
+/usr/bin/install -c .libs/libgmxpreprocess_mpi.a /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.a
+chmod 644 /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.a
+ranlib /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib/libgmxpreprocess_mpi.a
+PATH="$PATH:/sbin" ldconfig -n /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+(cd ./src/kernel && make install-mdrun ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'
+/bin/sh ../../config/mkinstalldirs /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin
+if test -f mdrun; then \
+	  f=`echo mdrun|sed 's/$//;s&$&_mpi&;s/$//'`; \
+	  echo "  /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/$f"; \
+	   /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/$f; \
+	else :; fi 
+  /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/mdrun_mpi
+/usr/bin/install -c .libs/mdrun /home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/exec/bin/mdrun_mpi
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.5.5_flatbottom_3.0nm/src/kernel'

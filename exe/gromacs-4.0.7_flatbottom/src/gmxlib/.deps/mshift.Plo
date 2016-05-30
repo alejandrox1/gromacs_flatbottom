@@ -1,0 +1,319 @@
+mshift.lo: mshift.c ../../src/config.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs-64.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/bits/string.h /usr/include/bits/string2.h \
+ ../../include/smalloc.h ../../src/config.h /usr/include/stdlib.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h /usr/include/time.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigset.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/wordsize.h \
+ /usr/include/alloca.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ ../../include/gmx_fatal.h ../../src/config.h /usr/include/stdio.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/wchar.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stdarg.h \
+ /usr/include/errno.h /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h ../../include/typedefs.h \
+ ../../src/config.h ../../include/sysstuff.h ../../src/config.h \
+ /usr/include/errno.h /usr/include/signal.h /usr/include/bits/sigset.h \
+ /usr/include/bits/signum.h /usr/include/time.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/wordsize.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h /usr/include/signal.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigthread.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/wordsize.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include-fixed/limits.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/time.h \
+ /opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h \
+ /usr/include/bits/time.h ../../include/types/simple.h ../../src/config.h \
+ ../../include/types/enums.h ../../src/config.h ../../include/types/block.h \
+ ../../src/config.h ../../include/types/symtab.h ../../src/config.h \
+ ../../include/types/idef.h ../../src/config.h ../../include/types/atoms.h \
+ ../../src/config.h ../../include/types/trx.h ../../src/config.h \
+ ../../include/types/topology.h ../../src/config.h ../../include/types/energy.h \
+ ../../src/config.h ../../include/types/inputrec.h ../../src/config.h \
+ ../../include/types/ishift.h ../../src/config.h ../../include/types/graph.h \
+ ../../src/config.h ../../include/gmx_fatal.h ../../include/types/nrnb.h \
+ ../../src/config.h ../../include/types/nblist.h ../../src/config.h \
+ ../../include/types/nsgrid.h ../../src/config.h ../../include/types/commrec.h \
+ ../../src/config.h /opt/mvapich2/intel/ib/include/mpi.h \
+ /opt/mvapich2/intel/ib/include/mpio.h /opt/mvapich2/intel/ib/include/mpi.h \
+ ../../include/types/idef.h ../../src/config.h ../../include/types/forcerec.h \
+ ../../src/config.h ../../include/types/ns.h ../../src/config.h \
+ ../../include/types/nsgrid.h ../../src/config.h ../../include/types/qmmmrec.h \
+ ../../src/config.h ../../include/types/fcdata.h ../../src/config.h \
+ ../../include/types/mdatom.h ../../src/config.h ../../include/types/pbc.h \
+ ../../src/config.h ../../include/types/ifunc.h ../../src/config.h \
+ ../../include/types/filenm.h ../../src/config.h ../../include/types/group.h \
+ ../../src/config.h ../../include/types/state.h ../../src/config.h \
+ ../../include/types/shellfc.h ../../src/config.h ../../include/types/constr.h \
+ ../../src/config.h ../../include/types/matrix.h ../../src/config.h \
+ ../../include/macros.h ../../src/config.h ../../include/vec.h \
+ ../../include/mpelogging.h ../../src/config.h ../../include/maths.h \
+ ../../src/config.h /opt/intel/composer_xe_2013_sp1.2.144/compiler/include/math.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/bits/wordsize.h ../../include/futil.h ../../src/config.h \
+ ../../include/copyrite.h ../../src/config.h ../../include/mshift.h \
+ ../../src/config.h ../../include/main.h ../../src/config.h \
+ ../../include/network.h ../../src/config.h ../../include/main.h \
+ ../../include/pbc.h ../../src/config.h
+
+../../src/config.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+../../include/smalloc.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+../../include/gmx_fatal.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../../include/typedefs.h:
+
+../../include/sysstuff.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include-fixed/limits.h:
+
+/opt/gnu/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+../../include/types/simple.h:
+
+../../include/types/enums.h:
+
+../../include/types/block.h:
+
+../../include/types/symtab.h:
+
+../../include/types/idef.h:
+
+../../include/types/atoms.h:
+
+../../include/types/trx.h:
+
+../../include/types/topology.h:
+
+../../include/types/energy.h:
+
+../../include/types/inputrec.h:
+
+../../include/types/ishift.h:
+
+../../include/types/graph.h:
+
+../../include/types/nrnb.h:
+
+../../include/types/nblist.h:
+
+../../include/types/nsgrid.h:
+
+../../include/types/commrec.h:
+
+/opt/mvapich2/intel/ib/include/mpi.h:
+
+/opt/mvapich2/intel/ib/include/mpio.h:
+
+../../include/types/forcerec.h:
+
+../../include/types/ns.h:
+
+../../include/types/qmmmrec.h:
+
+../../include/types/fcdata.h:
+
+../../include/types/mdatom.h:
+
+../../include/types/pbc.h:
+
+../../include/types/ifunc.h:
+
+../../include/types/filenm.h:
+
+../../include/types/group.h:
+
+../../include/types/state.h:
+
+../../include/types/shellfc.h:
+
+../../include/types/constr.h:
+
+../../include/types/matrix.h:
+
+../../include/macros.h:
+
+../../include/vec.h:
+
+../../include/mpelogging.h:
+
+../../include/maths.h:
+
+/opt/intel/composer_xe_2013_sp1.2.144/compiler/include/math.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+../../include/futil.h:
+
+../../include/copyrite.h:
+
+../../include/mshift.h:
+
+../../include/main.h:
+
+../../include/network.h:
+
+../../include/pbc.h:

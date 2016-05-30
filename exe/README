@@ -1,0 +1,3 @@
+Gromacs versions 4XX where modified to include a flat-bottom potential
+for osmotic pressure calculations.
+Modifications where made by Chris Neale.

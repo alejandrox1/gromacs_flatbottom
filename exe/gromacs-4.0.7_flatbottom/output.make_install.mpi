@@ -1,0 +1,119 @@
+(cd ./src/gmxlib && make install ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+Making install in nonbonded
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+Making install in nb_kernel_x86_64_sse
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel_x86_64_sse'
+Making install in nb_kernel
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make  install-am
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make[5]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded/nb_kernel'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+make[4]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/nonbonded'
+Making install in gmx_blas
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_blas'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_blas'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_blas'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_blas'
+Making install in gmx_lapack
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_lapack'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_lapack'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_lapack'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib/gmx_lapack'
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+test -z "/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib"
+ /bin/sh ../../libtool --mode=install /usr/bin/install -c  'libgmx_mpi.la' '/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libgmx_mpi.la'
+/usr/bin/install -c .libs/libgmx_mpi.lai /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libgmx_mpi.la
+/usr/bin/install -c .libs/libgmx_mpi.a /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libgmx_mpi.a
+chmod 644 /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libgmx_mpi.a
+ranlib /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libgmx_mpi.a
+PATH="$PATH:/sbin" ldconfig -n /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/gmxlib'
+(cd ./src/mdlib && make install ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+make[2]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+test -z "/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib" || /bin/mkdir -p "/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib"
+ /bin/sh ../../libtool --mode=install /usr/bin/install -c  'libmd_mpi.la' '/home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libmd_mpi.la'
+/usr/bin/install -c .libs/libmd_mpi.lai /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libmd_mpi.la
+/usr/bin/install -c .libs/libmd_mpi.a /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libmd_mpi.a
+chmod 644 /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libmd_mpi.a
+ranlib /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib/libmd_mpi.a
+PATH="$PATH:/sbin" ldconfig -n /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,--rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[3]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+make[3]: Nothing to be done for `install-exec-hook'.
+make[3]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/mdlib'
+(cd ./src/kernel && make install-mdrun ; exit 0)
+make[1]: Entering directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/kernel'
+/bin/sh ../../config/mkinstalldirs /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/bin
+if test -f mdrun; then \
+	  f=`echo mdrun|sed 's/$//;s&$&_mpi&;s/$//'`; \
+	  echo "  /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/bin/$f"; \
+	   /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/bin/$f; \
+	else :; fi 
+  /bin/sh ../../libtool  --mode=install /usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/bin/mdrun_mpi
+/usr/bin/install -c mdrun /home/nealec/exe/gromacs-4.0.7_flatbottom/exec/bin/mdrun_mpi
+make[1]: Leaving directory `/home/nealec/exe/gromacs-4.0.7_flatbottom/src/kernel'
